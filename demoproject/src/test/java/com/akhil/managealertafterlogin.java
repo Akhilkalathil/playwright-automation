@@ -55,7 +55,7 @@ try{
 
         page.locator("xpath=//span[normalize-space()='Manage']");
 
-        page.locator("null")
+        page.locator("null");
 
         }
     finally{

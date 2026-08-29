@@ -16,9 +16,9 @@ public class frames {
     page.locator("xpath=//button[normalize-space()='Account']").click();
     page.locator("xpath=//button[normalize-space()='Log in']").click();
 
-    List <Frame> allframes = page.frame(null)
+    List <Frame> allframes = page.frame(null);
     page.locator("xpath=//input[@type='tel']").fill("7788994455");
-    page.frameLocator(null)
+    page.frameLocator(null);
 
     page.close();
     broswer.close();
